@@ -1,0 +1,168 @@
+/* resets */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.text_w{
+    color: #ffffff;
+}
+.text_b{
+    color: #000;
+}
+.text_span{
+    color: #DED5C6;
+}
+/* end resets */
+
+body{
+    position: relative;
+    width: 1512px;
+    height: auto;
+
+    background: #FFFFFF; 
+    /*background: red;*/
+}
+
+.logo{
+    position: absolute;
+    width: 113px;
+    height: 29px;
+    left: 43px;
+    top: 45px;
+
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav_home{
+    position: absolute;
+    height: 26px;
+    left: 432px;
+    top: 45px;
+
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.nav_abou{
+    position: absolute;
+    height: 26px;
+    left: 636px;
+    top: 45px;
+
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.nav_pric{
+    position: absolute;
+    height: 26px;
+    left: 876px;
+    top: 45px;
+
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.nav_cont{
+    position: absolute;
+    height: 21px;
+    left: 1253px;
+    top: 48px;
+
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.text-title{
+    position: absolute;
+    width: 378px;
+    height: 442px;
+    left: 134px;
+    top: 204px;
+
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 104px;
+
+    color: #000000;
+}
+
+.text{
+    position: absolute;
+    width: 467px;
+    height: 78px;
+    left: 134px;
+    top: 716px;
+
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.btn{
+    position: absolute;
+    left: 243px;
+    top: 866px;
+
+    font-family: 'Sarabun';
+    font-size: 20px;
+}
+
+.btn_buy{
+    border: 15px solid #000000;
+    background: #000000;
+    border-radius: 20px;
+}
+
+.img_bottle{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 744px;
+    height: 772px;
+    left: 690px;
+    top: 147px;
+
+    background: url(../img/Rectangle\ 1.svg);
+    /* border: 1px solid #000000; */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.btn_cont{
+background: #000000;
+border: 10px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.btn_active{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+}
